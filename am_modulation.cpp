@@ -52,7 +52,7 @@ void normalizar(std::vector<double>& sinal, double maxValor) {
 
 int main() {
     // Abrir arquivo de entrada
-    const char* arquivoEntrada = "/home/matheus/Downloads/Phil-Collins-Another-Day-In-Paradise-_Audio-HQ_-HD.wav";
+    const char* arquivoEntrada = "Audio-HQ.wav";
     const char* arquivoSaida = "am_audio_receptor.wav";
 
     SF_INFO sfInfoEntrada;
